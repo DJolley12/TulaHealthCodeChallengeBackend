@@ -1,0 +1,25 @@
+﻿@page "/dataview"
+
+<h1>Date View</h1>
+@if (tableOnes == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tableOne in tableOnes)
+            {
+                <tr>
+                    <td>@tableOne.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0.3</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TulaHealthCodeChallenge.Data\TulaHealthCodeChallenge.Data.csproj" />
+    <ProjectReference Include="..\TulaHealthCodeChallenge.Domain\TulaHealthCodeChallenge.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
